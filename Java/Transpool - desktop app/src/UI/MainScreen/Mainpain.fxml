@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXTabPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.0" prefWidth="554.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.MainScreen.MainController">
+   <children>
+      <BorderPane layoutX="-1.0" layoutY="3.0" prefHeight="438.0" prefWidth="424.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <AnchorPane prefHeight="345.0" prefWidth="279.0" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+               <children>
+                  <JFXTabPane onMouseClicked="#OnTabClicked" prefHeight="385.0" prefWidth="424.0" stylesheets="@MainStyle.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <tabs>
+                        <Tab fx:id="MapTab" text="Map">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                          </content>
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                           </content>
+                        </Tab>
+                        <Tab fx:id="RidesTab" text="Rides">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <Pane prefHeight="55.0" prefWidth="554.0">
+                                       <children>
+                                          <Label layoutX="14.0" layoutY="18.0" text="Travel Requests">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <ScrollPane fitToHeight="true" fitToWidth="true" layoutX="92.0" layoutY="55.0" prefHeight="352.0" prefWidth="554.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="55.0">
+                                      <content>
+                                          <TableView fx:id="Table" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="771.0">
+                                            <columns>
+                                                <TableColumn fx:id="OrderNumber" prefWidth="94.0" text="Order Number" />
+                                                <TableColumn fx:id="FirstName" prefWidth="84.3333740234375" text="First Name" />
+                                                <TableColumn fx:id="LastName" prefWidth="78.66668701171875" text="Last Name" />
+                                                <TableColumn fx:id="CurrentStop" prefWidth="96.0" text="Current Stop" />
+                                                <TableColumn fx:id="DestinitionStop" prefWidth="113.3333740234375" text="Destinition Stop" />
+                                                <TableColumn prefWidth="75.0" text="Schedule">
+                                                   <columns>
+                                                      <TableColumn prefWidth="75.0" text="Day" />
+                                                      <TableColumn prefWidth="75.0" text="Hour" />
+                                                      <TableColumn prefWidth="75.0" text="Minutes" />
+                                                   </columns>
+                                                </TableColumn>
+                                                <TableColumn prefWidth="75.0" text="Match" />
+                                            </columns>
+                                          </TableView>
+                                      </content>
+                                    </ScrollPane>
+                                 </children></AnchorPane>
+                          </content>
+                        </Tab>
+                        <Tab fx:id="OffersTab" text="Offers">
+                           <content>
+                              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <Pane prefHeight="55.0" prefWidth="554.0">
+                                       <children>
+                                          <Label layoutX="14.0" layoutY="18.0" text="Travel Offers">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </Pane>
+                                    <ScrollPane fitToHeight="true" fitToWidth="true" layoutY="49.0" prefHeight="352.0" prefWidth="554.0" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="49.0">
+                                       <content>
+                                          <TableView fx:id="Table1" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="771.0">
+                                             <columns>
+                                                <TableColumn fx:id="OrderNumber1" prefWidth="94.0" text="Order Number" />
+                                                <TableColumn fx:id="FirstName1" prefWidth="84.3333740234375" text="First Name" />
+                                                <TableColumn fx:id="LastName1" prefWidth="78.66668701171875" text="Last Name" />
+                                                <TableColumn fx:id="CurrentStop1" prefWidth="96.0" text="Current Stop" />
+                                                <TableColumn fx:id="DestinitionStop1" prefWidth="113.3333740234375" text="Destinition Stop" />
+                                                <TableColumn prefWidth="75.0" text="Schedule">
+                                                   <columns>
+                                                      <TableColumn prefWidth="75.0" text="Day" />
+                                                      <TableColumn prefWidth="75.0" text="Hour" />
+                                                      <TableColumn prefWidth="75.0" text="Minutes" />
+                                                   </columns>
+                                                </TableColumn>
+                                                <TableColumn prefWidth="75.0" text="Match" />
+                                             </columns>
+                                          </TableView>
+                                       </content>
+                                    </ScrollPane>
+                                 </children>
+                              </AnchorPane>
+                           </content>
+                        </Tab>
+                     </tabs>
+                  </JFXTabPane>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

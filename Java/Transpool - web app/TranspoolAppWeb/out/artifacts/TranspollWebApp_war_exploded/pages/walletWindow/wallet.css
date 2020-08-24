@@ -1,0 +1,66 @@
+#moneyAmount {
+    width:45px;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+
+}
+
+
+#chargingMoneyForm {
+    font-size: small;
+}
+
+#walletIcon{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    left: 81px;
+    top: -37px;
+}
+
+#walletTitle {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: whitesmoke;
+    font-size: 30px;
+    position:relative;
+    top: -80px;
+}
+
+#imgCharge{
+    position: relative;
+    width: 35px;
+    height: 35px;
+    left: 120px;
+    top: 25px;
+}
+
+#moneyAmountNumber{
+    font-family: 'Ubuntu', sans-serif;
+    color: #000000;
+    position: relative;
+    font-size: 45px;
+    top: -65px;
+}
+
+#walletScroller {
+    height:150px;
+    width:255px;
+    overflow:scroll;
+    position:relative;
+    top: -105px;
+    left:-9px;
+}
+
+#walletTable {
+    font-family: 'Ubuntu', sans-serif;
+    font-size:  7.6px;
+    text-align: left;
+}
+
+
+#walletTableArea{
+    position: relative;
+    top: -90px;
+}
+
+
+

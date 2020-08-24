@@ -1,0 +1,212 @@
+header {
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#userNamecontent{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: whitesmoke;
+    font-size: 50px;
+    position: relative;
+    left: 45px;
+
+}
+input[type=submit] {
+    padding:5px 15px;
+    background: #060bcc;
+    color: whitesmoke;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #5f9bfb;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+#RequestsScroller{
+
+    height:250px;
+    width:750px;
+    overflow:scroll;
+}
+#imgTransPool {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 930px;
+    top: -10px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0px 11px 30px 2px rgba(0, 0, 0, 0.14);
+    background: whitesmoke;
+    position: center;
+    top: -10px;
+}
+
+thead {
+    font-weight: bold;
+    background-color: #060bcc;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+td, th {
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid #dfdfdf;
+    text-align: left;
+    padding: 8px;
+}
+
+#MapsScrollerPage3{
+
+    height:385px;
+    width:690px;
+    overflow:scroll;
+}
+
+
+
+article {
+    float: left;
+    padding: 8px;
+    width: 700px;
+    background-color: #f8f9fa;
+    height: 400px; /* only for demonstration, should be removed */
+    margin: 2em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 30px 2px rgba(0, 0, 0, 0.14);
+}
+
+aside {
+    float: right;
+    background-color: #7aa8f0;
+    padding: 20px;
+    width: 400px;
+    height: 800px; /* only for demonstration, should be removed */
+    margin: 2em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 30px 2px rgba(0, 0, 0, 0.14);
+}
+
+#uploadErrors{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
+
+}
+
+
+#BackButton{
+    background: #060bcc;
+    color: whitesmoke;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+#asideBarPage3 {
+    position:relative;
+    background-color: #5f9bfb;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: whitesmoke;
+    font-size: 20px;
+    height: 40px;
+    margin: 2em auto;
+    top: -40px;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 30px 2px rgba(0, 0, 0, 0.14);
+}
+
+#MapDetailTitle {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+footer {
+
+    float: left;
+    padding: 10px;
+    width: 700px;
+    position :relative;
+    top: -40px;
+    left: 5px;
+    background-color: #7aa8f0;
+    height: 300px;
+    margin: 2em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 30px 2px rgba(0, 0, 0, 0.14);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#asideBarRO {
+    position:relative;
+    background-color: #5f9bfb;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: whitesmoke;
+    font-size: 20px;
+    height: 40px;
+    margin: 2em auto;
+    top: -40px;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 30px 2px rgba(0, 0, 0, 0.14);
+}
+#RequestsSectionTitle {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+#OffersSectionTitle{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: whitesmoke;
+    font-size: 30px;
+}
+#DynamicForm {
+    position:relative;
+    top: -60px;
+}
+
+#RequestsSection{
+    position:relative;
+    top: -80px;
+    left: -20px;
+}
+
+#OffersSection{
+    position:relative;
+    top: -80px;
+    left: -20px;
+}
+
+#RequestsScroller{
+    height:170px;
+    width:690px;
+    overflow:scroll;
+    position:relative;
+}
+
+#OffersScroller {
+    height:170px;
+    width:690px;
+    overflow:scroll;
+    position:relative;
+}

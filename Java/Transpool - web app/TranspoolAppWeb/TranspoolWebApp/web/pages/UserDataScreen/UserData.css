@@ -1,0 +1,143 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+body {
+    background-color: #5f9bfb;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0px 11px 30px 2px rgba(0, 0, 0, 0.14);
+}
+
+td, th {
+    font-family: 'Ubuntu', sans-serif;
+    border: 1px solid #dfdfdf;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#uploadResultContent {
+    font-family: 'Ubuntu', sans-serif;
+    color: #ff1512;
+}
+
+#tMapName {
+    font-family: 'Ubuntu', sans-serif;
+    width: 100px;
+    text-align:center
+
+
+}
+
+#MapsScroller{
+
+    height:270px;
+    width:800px;
+    overflow:scroll;
+}
+
+/* Style the header */
+header {
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+article {
+    float: left;
+    padding: 8px;
+    width: 72.875%;
+    background-color: #f8f9fa;
+    height: 500px; /* only for demonstration, should be removed */
+    margin: 2em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 30px 2px rgba(0, 0, 0, 0.14);
+}
+
+aside {
+    float: right;
+    background-color: #7aa8f0;
+    padding: 20px;
+    width: 26%;
+    height: 430px; /* only for demonstration, should be removed */
+    margin: 2em auto;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 30px 2px rgba(0, 0, 0, 0.14);
+}
+
+#asideBar {
+    position:relative;
+    background-color: #5f9bfb;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: whitesmoke;
+    font-size: 20px;
+    height: 40px;
+    margin: 2em auto;
+    top: -40px;
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 30px 2px rgba(0, 0, 0, 0.14);
+}
+
+
+#imgFie {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    left: 140px;
+    top: 40px;
+}
+#pageBody {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px;
+    background: #060bcc;
+    color: whitesmoke;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text] {
+    padding:5px;
+    border:2px solid #ccc;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#userNamecontent{
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: whitesmoke;
+    font-size: 50px;
+    position: relative;
+    left: 45px;
+
+}
+
+thead {
+    font-weight: bold;
+}
+
+#imgTransPool {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: 930px;
+    top: -10px;
+}

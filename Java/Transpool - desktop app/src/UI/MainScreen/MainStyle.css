@@ -1,0 +1,24 @@
+.tab{
+    -fx-pref-width: 175;
+    -fx-pref-height: 25;
+    -fx-background-color:  #1B6CD7;
+}
+
+.tab-header-background
+{
+    -fx-background-color: #1B6CD7;
+    -fx-background-radius: 50px;
+
+
+}
+
+.label{
+    -fx-font-family: Arial;
+    -fx-text-fill: #5d5d5e;
+}
+
+.grid1
+{
+    -fx-background-color: white;
+}
+
